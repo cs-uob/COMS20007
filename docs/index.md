@@ -1,0 +1,50 @@
+---
+layout: math
+title: Home
+mathjax: true
+description: "COMS20007: Programming Languages and Computation (Part I)."
+permalink: /
+---
+
+* * * 
+
+## COMS20007
+{: .lh-0 .fw-300 .text-center } 
+
+# Programming Languages and Computation
+{: .text-center }
+
+* * *
+{: .mb-9 }
+
+
+Welcome to the home of COMS20007: Programming Languages and Computation, or *Prog Lang and Comp* for short.  This unit introduces you to computability theory and to the theory of programming languages, which are two core areas of theoretical computer science.  
+  * Part I: Computability theory is about the limits of computation.  
+  * Part II: The theory of programming languages is about how languages express computation.
+
+In Part I we will try to understand how to classify computational problems according to whether or not they can be solved algorithmically, that is, by some computational process.  To do this we will introduce a very simple machine model of computation due to Alan Turing.  We will argue that this model, though completely impractical, is sufficient to solve any problem that can be solved by an algorithm.
+
+In practice, we usually express computation through a program in some language. In Part II we will try to understand how programming languages give rise to computation.  To do this we will introduce the syntax and semantics of some simple programming languages.  We will study how different features of the languages interact to tame the kinds of computations that can be described.
+
+### Schedule
+
+This is a 20 credit unit, so you should expect to around 13 hours per week working on it.  There are 5 main activities:
+* __Prerecorded lectures.__ At the start of each week, three prerecorded lectures will be posted on the unit website which you need to watch in your own time.
+* __Online labs.__  TBC
+* __Problems.__ You will only learn on this unit by completing the problem sheets and exercises.  There is one sheet released each week.
+* __Lecturer Q&A.__ Each week there will be a one-hour Q&A with the lecturer, online at 1pm on every Tuesday.
+* __Reading/Revising.__  You will often benefit from alternative explanations of the same concepts, which would not fit into the time available for lectures.  You will need to spend time revising and rethinking topics before you can solve the associated problems.
+
+See the home pages for Part I and Part II for more information on what these activities look like in each component of the unit.
+
+The two parts will be slightly interleaved as a consequence of time constraints on the teaching times of the lecturers.  The following is provisional and will be updated according to circumstances:
+
+| Weeks   | Topic               |
+|:--------|:-------------------------------|
+| 1 -- 3  | Part I: Computation            |
+| 4 -- 8  | Part II: Programming Languages |
+| 9 -- 10 | Part I: Computation            |
+
+### Assessment
+
+This unit is assessed by a written exam, conducted online in the January assessment period.

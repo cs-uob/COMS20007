@@ -1,0 +1,5 @@
+title: Prog Lang & Comp
+remote_theme: pmarsceill/just-the-docs
+color_scheme: foo
+compress_html:
+  blanklines: true
