@@ -1,5 +1,5 @@
 ---
-layout: math
+layout: obs
 title: Prenex Normal Form
 mathjax: true
 parent: Number Theory

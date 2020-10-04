@@ -1,8 +1,9 @@
 ---
-layout: math
+layout: obs
 title: Arithmetical Definability
 mathjax: true
 parent: Number Theory
+grand_parent: Part I
 nav_order: 2
 ---
 

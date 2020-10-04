@@ -1,5 +1,5 @@
 ---
-layout: math
+layout: obs
 title: Theories of Arithmetic
 mathjax: true
 parent: Number Theory

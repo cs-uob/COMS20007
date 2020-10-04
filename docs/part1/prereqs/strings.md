@@ -2,7 +2,7 @@
 layout: obs
 title: Strings
 mathjax: true
-nav_order: 3
+nav_order: 1
 parent: Prerequesites
 grand_parent: Part I
 ---
