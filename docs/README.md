@@ -32,7 +32,7 @@ The unit is run by Steven Ramsay (Part I) and François Dupressoir (Part II).  T
 
 | Steven Ramsay | François Dupressoir |
 |:-------------:|:-----------------:|
-|![Steven](wbc.jpg){: width="170px" }|![Francois](Francois.jpg){: width="110px" }|
+|![Steven](wbc.jpg){: width="150px" }|![Francois](Francois.jpg){: width="110px" }|
 
 ### Technology
 
