@@ -25,8 +25,8 @@ $$
     \begin{array}{rcl}
       (Qx.\ A) \wedge B   & \leadsto & Qx.\ A \wedge B \\
       A \wedge (Qx.\ B)   & \leadsto & Qx.\ A \wedge B \\
-      (Qx.\ A) \vee B     & \leadsto & Qx.\ A \wedge B \\
-      A \vee (Qx.\ B)     & \leadsto & Qx.\ A \wedge B \\
+      (Qx.\ A) \vee B     & \leadsto & Qx.\ A \vee B \\
+      A \vee (Qx.\ B)     & \leadsto & Qx.\ A \vee B \\
       \neg (Qx.\ A)       & \leadsto & \bar{Q}x.\ \neg A \\
       A \Rightarrow B     & \leadsto & \neg A \vee B \\
       A \Leftrightarrow B & \leadsto & (A \Rightarrow B) \wedge (B \Rightarrow A) \\
