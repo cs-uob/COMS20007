@@ -1,7 +1,7 @@
 ---
 layout: obs
 title: Turing Machines
-nav_order: 3
+nav_order: 1
 mathjax: true
 parent: Turing Computability
 grand_parent: Part I
