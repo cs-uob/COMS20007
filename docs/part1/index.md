@@ -52,3 +52,14 @@ The textbook [Introduction to the Theory of Computation](https://ebookcentral.pr
 * The Sipser book does not cover the logic part especially well.
 
 You will need to refer to the textbook or take notes during lectures for discussion of examples, motivation etc.
+
+In the following table "Sipser" refers to Introduction to the Theory of Computation, 3rd edition and "Schoening" refers to [Logic for Computer Scientists](https://link-springer-com.bris.idm.oclc.org/book/10.1007%2F978-0-8176-4763-6).  Lecture number refers to an entire lecture (of which there are three per week) and not only a part of a lecture.
+
+| Lecture | Additional recommended reading |
+|:--------|:-------------------------------|
+| 1       | None                           |
+| 2       | Schoening (pp 67-68)           |
+| 3       | Sipser (pp 31-34, 47-52)       |
+| 4       | Sipser (pp 45-46, 55-56)       |
+| 5       | None                           |
+| 6       | Sipser (pp 165-175)            |
