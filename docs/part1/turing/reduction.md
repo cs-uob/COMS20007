@@ -22,7 +22,7 @@ __Lemma:__ If $$A \leq_m B$$ then $A^c \leq_m B^c$.
 
 
 
-__Theorem:__ If $A \leq_m B$$ and $$B$$ is Turing-recognisible then $$A$$ is Turing-recognisible.
+__Theorem:__ If $$A \leq_m B$$ and $$B$$ is Turing-recognisible then $$A$$ is Turing-recognisible.
 
 __Corollary:__ If $$A \leq_m B$$ and $$A$$ is not Turing-recognisible, then $$B$$ is not Turing-recognisible.
 
