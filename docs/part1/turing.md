@@ -15,3 +15,4 @@ A language is said to be __co-Turing-recognisible__ or __corecursively enumerabl
 
 A language is said to be __Turing-decidable__ or __recursive__, just if it is decided by some Turing machine.
 
+__Theorem:__ A language is Turing-decidable iff it is both Turing-recognisible and Turing-corecognisible.
