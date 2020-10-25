@@ -30,8 +30,8 @@ In practice, we usually express computation through a program in some language. 
 
 The unit is run by Steven Ramsay (Part I) and François Dupressoir (Part II).  The labs are staffed by some excellent TAs: Samantha Frohlich, Eddie Jones, David Kenna, Mutalib Mohammed, Alex Welsh and Alessio Zakaria.
 
-| Steven Ramsay | François Dupressoir |
-|:-------------:|:-----------------:|
+| Steven Ramsay                      | François Dupressoir                       |
+|:----------------------------------:|:-----------------------------------------:|
 |![Steven](wbc.jpg){: width="150px" }|![Francois](Francois.jpg){: width="110px" }|
 
 ### Technology
