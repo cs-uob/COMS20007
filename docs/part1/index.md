@@ -42,6 +42,13 @@ The problem sheets are linked here (but may not be available until the appropria
 * [Sheet 3](https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20(Part%20I)/sheet3.pdf) ([Solutions](https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Solutions%20(Part%20I)/sheet3.pdf)) 
 * [Sheet 4](https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20(Part%20I)/sheet4.pdf) ([Solutions](https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Solutions%20(Part%20I)/sheet4.pdf)) 
 
+## Mini Project
+
+An additional, optional activity is to complete the mini project.  The aim of the project is to implement in Haskell the algorithm described in Lecture 5 for deciding Presburger Arithmetic.  
+
+  * [Instructions](https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Mini%20Project%20(Part%20I)/miniproj.pdf)
+  * [Project Skeleton](https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Mini%20Project%20(Part%20I)/presburger.zip)
+
 
 ## Materials
 This site contains all the definitions and theorems that you need to be able to do the problem sheets and exam for the "Computation" part of Programming Languages and Computation. 
