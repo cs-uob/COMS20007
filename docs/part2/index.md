@@ -34,6 +34,14 @@ The problem sheets will appear here, along with Haskell templates, when ready.
 They will also be uploaded to the Files tab of the General channel in the
 [COMS20007 Team](https://teams.microsoft.com/l/team/19%3add828ce0548d42159af589fd2340ec82%40thread.tacv2/conversations?groupId=ae85fd4b-b6ac-4b6c-870d-7e4451649167&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b).
 
+For the programming tasks, we will assume a barebones Haskell that gives you
+access to a reasonable version of Cabal. We provide a
+[Vagrantfile](https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Vagrantfile),
+for use with [Vagrant](https://www.vagrantup.com) and
+[VirtualBox](https://www.virtualbox.org/). The recipe uses
+[ghcup](https://www.haskell.org/ghcup) to set up Haskell, Cabal, as well as
+Alex and Happy, which I will sometimes use for writing lexers and parser.
+
 ## Materials
 We will refer to the following two texts:
 - Benjamin Pierce's [Types and Programming Languages](https://bris.on.worldcat.org/oclc/51958338). (We will use only Chapters 5 and 6, but Chapters 1 to 4 are a generally useful read.) We refer to this as "Pierce".
