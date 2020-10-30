@@ -39,12 +39,22 @@ They will also be uploaded to the Files tab of the General channel in the
 | 4    | [Problem sheet](https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20%28Part%20II%29/lab1-sheet.pdf) | [Starter Code](https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20%28Part%20II%29/lab1-code.zip) | Solutions      | Final Code  |
 
 For the programming tasks, we will assume a barebones Haskell that gives you
-access to a reasonable version of Cabal. We provide a
+access to a reasonable version of Cabal.
+
+We provide a
 [Vagrantfile](https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Vagrantfile),
 for use with [Vagrant](https://www.vagrantup.com) and
 [VirtualBox](https://www.virtualbox.org/). The recipe uses
 [ghcup](https://www.haskell.org/ghcup) to set up Haskell, Cabal, as well as
 Alex and Happy, which I will sometimes use for writing lexers and parser.
+
+We've also prepared a docker container, tested to work with both `docker` and
+`podman`. You can run `docker run fdupress/coms20007lab`, with appropriate
+options to mount the problem files and start the command you want. The
+container uses an Alpine base image and will lack creature comforts even if you
+put some effort into exanding it. The idea here is to use the container as a
+thin wrapper around Haskell tools, rather than a full-blown system in which
+you'll do your work.
 
 ## Materials
 We will refer to the following two texts:
