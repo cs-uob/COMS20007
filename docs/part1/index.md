@@ -49,9 +49,13 @@ An additional, optional activity is to complete the mini project.  The aim of th
   * [Instructions](https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Mini%20Project%20(Part%20I)/miniproj.pdf)
   * [Project Skeleton](https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Mini%20Project%20(Part%20I)/presburger.zip)
 
+You may find the resources provided for the Part II Haskell programming useful, see [here](https://cs-uob.github.io/COMS20007/part2/#problem-sheets).
+
 
 ## Materials
 This site contains all the definitions and theorems that you need to be able to do the problem sheets and exam for the "Computation" part of Programming Languages and Computation. 
+
+The Onenote notebook I write on in the lectures is available [here](https://uob-my.sharepoint.com/:o:/g/personal/sr17466_bristol_ac_uk/Em80TGXrzjhKq834uuX-g3sBk9buP0nhKiY2VVnCNG1Qbg?e=efIUKX).
 
 The textbook [Introduction to the Theory of Computation](https://ebookcentral.proquest.com/lib/bristol/detail.action?docID=5133051) by Michael Sipser is the ultimate reference for the computability theory in this part of the unit, but I have collected the formal material into this site because:
 * Not everyone has a paper copy of the book and the electronic version (which everyone has access to via the library catalogue) is not easy to navigate.
