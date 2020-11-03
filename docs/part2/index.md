@@ -21,24 +21,51 @@ This part will cover the semantics of programming languages in theory and in pra
 * We will think about the logical and mathematical tools we need to reason about a language's semantics, and a program's correctness.
 * We will define and animate the semantics of a small stack machine, and define a translation from IMP to its language. We will implement this translation as a compiler.
 
-|---
-| Week  | Lecture 1                                                                      | Lecture 2                                                                                                                                                                                                | [Problem Sheet](#problem-sheets)                        | Lecture 3                                                                                                                                                                                                                              |
-| :---- | :-----------                                                                   | :--------                                                                                                                                                                                                | :------------                                           | :--------                                                                                                                                                                                                                              |
-| 4     | **Introduction**<br/>- Part 1: [Why?][l01_1] ([notes][n01_1]) | **Untyped $\lambda$-calculus**<br/>- Part 1: [$\lambda$-terms and $\beta$-reduction][l02_1] ([notes][n02_1]);<br/>- Part 2: [Live coding: $\lambda$-terms and $\beta$-reduction][l02_2] ([notes][n02_2]) | **Evaluating $\lambda$-terms**                          | **Computing with $\lambda$: CBV, CBN, Church encodings**<br/>- Part 1: [Evaluation strategies][l03_1] ([notes][n03_1]);<br/>- Part 2: [Live coding: CBV (small-step)][l03_2];<br/>- Part 3: [Church encodings][l03_3] ([notes][n03_3]) |
-| 5     | Break                                                                          | Break                                                                                                                                                                                                    | **Reasoning about $\lambda$-terms** | Break                                                                                                                                                                                                                                  |
-{: .v-align-top }
-
-[l01_1]: https://web.microsoftstream.com/video/e0c39a90-ad79-4288-aa36-9a2f539f151e?channelId=029543e1-41d8-4091-b07b-af0c676c468c
-[n01_1]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Notes%20%28Part%20II%29/Lecture1-Introduction.pdf
-[l02_1]: https://web.microsoftstream.com/video/99bcfe48-1b5c-4266-ab4c-a13c23e5cd89?channelId=029543e1-41d8-4091-b07b-af0c676c468c
-[n02_1]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Notes%20%28Part%20II%29/Lecture2-Lambda%20and%20Beta.pdf
-[l02_2]: https://web.microsoftstream.com/video/3e58341a-316f-4a79-9362-191f54df2baf?channelId=029543e1-41d8-4091-b07b-af0c676c468c
-[n02_2]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Notes%20%28Part%20II%29/Lecture2-Collected.pdf
-[l03_1]: https://web.microsoftstream.com/video/f9323006-ed24-4d40-98ce-8ed64f660e4e?channelId=029543e1-41d8-4091-b07b-af0c676c468c
-[n03_1]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Notes%20%28Part%20II%29/Lecture3-CBV-CBN-Normal.pdf
-[l03_2]: https://web.microsoftstream.com/video/7a4738a6-12cc-4262-ad2b-d1ba8f84e4da?channelId=029543e1-41d8-4091-b07b-af0c676c468c
-[l03_3]: https://web.microsoftstream.com/video/d0bc40e3-1491-4786-ae56-a1cfb902b07f?channelId=029543e1-41d8-4091-b07b-af0c676c468c
-[n03_3]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Notes%20%28Part%20II%29/Lecture3-Encodings.pdf
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Week</th>
+      <th style="text-align: left">Lecture 1</th>
+      <th style="text-align: left">Lecture 2</th>
+      <th style="text-align: left"><a href="#problem-sheets">Problem Sheet</a></th>
+      <th style="text-align: left">Lecture 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left; vertical-align: top">4</td>
+      <td style="text-align: left; vertical-align: top">
+        <strong>Introduction</strong>
+        <ul>
+          <li> Part 1: <a href="https://web.microsoftstream.com/video/e0c39a90-ad79-4288-aa36-9a2f539f151e?channelId=029543e1-41d8-4091-b07b-af0c676c468c">Why?</a> (<a href="https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Notes%20%28Part%20II%29/Lecture1-Introduction.pdf">notes</a>)</li>
+        </ul>
+      </td>
+      <td style="text-align: left; vertical-align: top">
+        <strong>Untyped $\lambda$-calculus</strong>
+        <ul>
+          <li> Part 1: <a href="https://web.microsoftstream.com/video/99bcfe48-1b5c-4266-ab4c-a13c23e5cd89?channelId=029543e1-41d8-4091-b07b-af0c676c468c">$\lambda$-terms and $\beta$-reduction</a> (<a href="https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Notes%20%28Part%20II%29/Lecture2-Lambda%20and%20Beta.pdf">notes</a>);</li>
+          <li> Part 2: <a href="https://web.microsoftstream.com/video/3e58341a-316f-4a79-9362-191f54df2baf?channelId=029543e1-41d8-4091-b07b-af0c676c468c">Live coding: $\lambda$-terms and $\beta$-reduction</a> (<a href="https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Notes%20%28Part%20II%29/Lecture2-Collected.pdf">notes</a>)</li>
+        </ul>
+      </td>
+      <td style="text-align: left; vertical-align: top"><strong>Evaluating $\lambda$-terms</strong></td>
+      <td style="text-align: left; vertical-align: top">
+        <strong>Computing with $\lambda$: CBV, CBN, Church encodings</strong>
+        <ul>
+          <li> Part 1: <a href="https://web.microsoftstream.com/video/f9323006-ed24-4d40-98ce-8ed64f660e4e?channelId=029543e1-41d8-4091-b07b-af0c676c468c">Evaluation strategies</a> (<a href="https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Notes%20%28Part%20II%29/Lecture3-CBV-CBN-Normal.pdf">notes</a>);</li>
+          <li> Part 2: <a href="https://web.microsoftstream.com/video/7a4738a6-12cc-4262-ad2b-d1ba8f84e4da?channelId=029543e1-41d8-4091-b07b-af0c676c468c">Live coding: CBV (small-step)</a>;</li>
+          <li> Part 3: <a href="https://web.microsoftstream.com/video/d0bc40e3-1491-4786-ae56-a1cfb902b07f?channelId=029543e1-41d8-4091-b07b-af0c676c468c">Church encodings</a> (<a href="https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Notes%20%28Part%20II%29/Lecture3-Encodings.pdf">notes</a>)</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left; vertical-align: top">5</td>
+      <td style="text-align: left; vertical-align: top">Break</td>
+      <td style="text-align: left; vertical-align: top">Break</td>
+      <td style="text-align: left; vertical-align: top"><strong>Reasoning about $\lambda$-terms</strong></td>
+      <td style="text-align: left; vertical-align: top">Break</td>
+    </tr>
+  </tbody>
+</table>
 
 You will know enough to _start_ the problem sheet for a given Week after
 listening to the first two lectures of the same Week. The problem sheet and
