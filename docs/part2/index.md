@@ -21,9 +21,10 @@ This part will cover the semantics of programming languages in theory and in pra
 * We will think about the logical and mathematical tools we need to reason about a language's semantics, and a program's correctness.
 * We will define and animate the semantics of a small stack machine, and define a translation from IMP to its language. We will implement this translation as a compiler.
 
-| Week  | Lecture 1    | Lecture 2                  | Problem Sheet              | Lecture 3                                            |
-| :---- | :----------- | :--------                  | :------------              | :--------                                            |
-| 4     | Introduction | Untyped $\lambda$-calculus | Evaluating $\lambda$-terms | Computing with $\lambda$: CBV, CBN, Church encodings |
+| Week  | Lecture 1    | Lecture 2                  | Problem Sheet                                       | Lecture 3                                            |   |
+| :---- | :----------- | :--------                  | :------------                                       | :--------                                            |   |
+| 4     | Introduction | Untyped $\lambda$-calculus | Evaluating $\lambda$-terms                          | Computing with $\lambda$: CBV, CBN, Church encodings |   |
+| 5     | Break        | Break                      | Reasoning about $\lambda$-terms and their reduction | Break                                                |   |
 
 You will know enough to _start_ the problem sheet for a given Week after
 listening to the first two lectures of the same Week. The problem sheet and
@@ -37,6 +38,7 @@ They will also be uploaded to the Files tab of the General channel in the
 | Week | Sheet                                                                                                                                | Starter Code                                                                                                                       | Sample Answers | Sample Code |
 | :--- | :----                                                                                                                                | :-----------                                                                                                                       | :------------- | :---------- |
 | 4    | [Problem sheet](https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20%28Part%20II%29/lab1-sheet.pdf) | [Starter Code](https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20%28Part%20II%29/lab1-code.zip) | Solutions      | Final Code  |
+| 5    |                                                                                                                                      |                                                                                                                                    |                |             |
 
 For the programming tasks, we will assume a barebones Haskell that gives you
 access to a reasonable version of Cabal.
