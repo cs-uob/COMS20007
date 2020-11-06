@@ -49,10 +49,17 @@ The problem sheets will appear here, along with Haskell templates, when ready.
 They will also be uploaded to the Files tab of the General channel in the
 [COMS20007 Team](https://teams.microsoft.com/l/team/19%3add828ce0548d42159af589fd2340ec82%40thread.tacv2/conversations?groupId=ae85fd4b-b6ac-4b6c-870d-7e4451649167&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b).
 
-| Week | Sheet                                                                                                                                | Starter Code                                                                                                                       | Sample Answers | Sample Code |
-| :--- | :----                                                                                                                                | :-----------                                                                                                                       | :------------- | :---------- |
-| 4    | [Problem sheet](https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20%28Part%20II%29/lab1-sheet.pdf) | [Starter Code](https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20%28Part%20II%29/lab1-code.zip) | Solutions      | Final Code  |
-| 5    |                                                                                                                                      |                                                                                                                                    |                |             |
+| Week | Sheet                | Starter Code        | Sample Answers     | Sample Code         |
+| :--- | :----                | :-----------        | :-------------     | :----------         |
+| 4    | [Problem sheet][s01] | [Starter Code][c01] | [Solutions][ans01] | [Final Code][sol01] |
+| 5    | [Problem sheet][s02] | -                   | Solutions          | -                   |
+
+[s01]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20%28Part%20II%29/lab1-sheet.pdf
+[c01]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20%28Part%20II%29/lab1-code.zip
+[ans01]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20(Part%20II)/lab1-solution.pdf
+[sol01]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20(Part%20II)/lab1-solution.zip
+
+[s02]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20(Part%20II)/lab2-sheet.pdf
 
 For the programming tasks, we will assume a barebones Haskell that gives you
 access to a reasonable version of Cabal.
