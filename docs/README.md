@@ -61,9 +61,10 @@ The two parts will be slightly interleaved as a consequence of time constraints 
 
 | Weeks   | Topic               |
 |:--------|:-------------------------------|
-| 1 -- 3  | Part I: Computation            |
-| 4 -- 8  | Part II: Programming Languages |
-| 9 -- 10 | Part I: Computation            |
+| 1 -- 3  | [Part I: Computation](part1/#schedule)            |
+| 4 -- 5  | [Part II: Programming Languages](part2/#schedule) |
+| 6 -- 7  | [Part I: Computation](part1/#schedule)           |
+| 8 --    | [Part II: Programming Languages](part2/#schedule) |
 
 ### Assessment
 
