@@ -78,7 +78,7 @@ We've also prepared a docker container, tested to work with both `docker` and
 `podman`. You can run `docker run fdupress/coms20007lab`, with appropriate
 options to mount the problem files and start the command you want. The
 container uses an Alpine base image and will lack creature comforts even if you
-put some effort into exanding it. The idea here is to use the container as a
+put some effort into expanding it. The idea here is to use the container as a
 thin wrapper around Haskell tools, rather than a full-blown system in which
 you'll do your work.
 
