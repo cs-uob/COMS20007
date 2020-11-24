@@ -78,3 +78,5 @@ In the following table "Sipser" refers to Introduction to the Theory of Computat
 | 7       | Sipser (pp 165-175)            |
 | 8       | Sipser (pp 176-178, 180-182)   |
 | 9       | Sipser (pp 182-187)            |
+| 10      | Sipser (pp 202, 207-210)       |
+| 11      | Sipser (pp 216-217, 234-238)   |
