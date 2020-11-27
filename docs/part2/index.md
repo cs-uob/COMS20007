@@ -62,7 +62,8 @@ They will also be uploaded to the Files tab of the General channel in the
 | Week | Sheet                | Starter Code        | Sample Answers     | Sample Code         |
 | :--- | :----                | :-----------        | :-------------     | :----------         |
 | 4    | [Problem sheet][s01] | [Starter Code][c01] | [Solutions][ans01] | [Final Code][sol01] |
-| 5    | [Problem sheet][s02] | -                   | Solutions          | -                   |
+| 5    | [Problem sheet][s02] | -                   | [Solutions][ans02] | -                   |
+| 8    | [Problem sheet][s03] | [Starter Code][c03] | Solutions          | Final Code          |
 
 [s01]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20%28Part%20II%29/lab1-sheet.pdf
 [c01]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20%28Part%20II%29/lab1-code.zip
@@ -70,6 +71,13 @@ They will also be uploaded to the Files tab of the General channel in the
 [sol01]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20(Part%20II)/lab1-solution.zip
 
 [s02]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20(Part%20II)/lab2-sheet.pdf
+[ans02]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20(Part%20II)/lab2-solution.pdf
+
+[s03]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20(Part%20II)/lab3-sheet.pdf
+[c03]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20(Part%20II)/lab3-code.zip
+[ans03]:
+[sol03]:
+
 
 For the programming tasks, we will assume a barebones Haskell that gives you
 access to a reasonable version of Cabal.
