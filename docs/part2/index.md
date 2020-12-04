@@ -68,6 +68,13 @@ You will know enough to _start_ the problem sheet for a given Week after
 listening to the first two lectures of the same Week. The problem sheet and
 Lecture 3 of a given Week will often be designed to be looked at together.
 
+In the above table, a lecture or part being marked as (Optional) means that it
+is not necessary to have watched it to pass the unit or get a low first. Some
+top-range marks might assume some exposure to the material.
+
+A lecture or part being marked as (Unassessed) means that even top-range marks
+won't be touching the concepts the lecture or part introduces.
+
 ## Problem Sheets
 The problem sheets will appear here, along with Haskell templates, when ready.
 They will also be uploaded to the Files tab of the General channel in the
