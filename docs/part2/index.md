@@ -84,7 +84,7 @@ They will also be uploaded to the Files tab of the General channel in the
 | :--- | :----                | :-----------        | :-------------     | :----------         |
 | 4    | [Problem sheet][s01] | [Starter Code][c01] | [Solutions][ans01] | [Final Code][sol01] |
 | 5    | [Problem sheet][s02] | -                   | [Solutions][ans02] | -                   |
-| 8    | [Problem sheet][s03] | [Starter Code][c03] | Solutions          | Final Code          |
+| 8    | [Problem sheet][s03] | [Starter Code][c03] | [Solutions][ans03] | [Final Code][sol03] |
 
 [s01]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20%28Part%20II%29/lab1-sheet.pdf
 [c01]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20%28Part%20II%29/lab1-code.zip
@@ -96,8 +96,8 @@ They will also be uploaded to the Files tab of the General channel in the
 
 [s03]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20(Part%20II)/lab3-sheet.pdf
 [c03]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20(Part%20II)/lab3-code.zip
-[ans03]:
-[sol03]:
+[ans03]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20(Part%20II)/lab3-solution.pdf
+[sol03]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20(Part%20II)/lab3-solution.zip
 
 
 For the programming tasks, we will assume a barebones Haskell that gives you
