@@ -27,8 +27,8 @@ This part will cover the semantics of programming languages in theory and in pra
 | 4     | **Introduction**<br/>- Part 1: [Why?][l01_1] ([notes][n01_1])                                                                | **Untyped $\lambda$-calculus**<br/>- Part 1: [$\lambda$-terms and $\beta$-reduction][l02_1] ([notes][n02_1]);<br/>- Part 2: [Live coding: $\lambda$-terms and $\beta$-reduction][l02_2] ([notes][n02_2]) | **Evaluating $\lambda$-terms**                     | **Computing with $\lambda$: CBV, CBN, Church encodings**<br/>- Part 1: [Evaluation strategies][l03_1] ([notes][n03_1]);<br/>- Part 2: [Live coding: CBV (small-step)][l03_2];<br/>- Part 3: [Church encodings][l03_3] ([notes][n03_3]) |
 | 5     | Break                                                                                                                        | Break                                                                                                                                                                                                    | **Reasoning about $\lambda$-terms**                | Break                                                                                                                                                                                                                                  |
 | 8     | **IMP/While** ([notes][n04])<br/>- Part 1: [Introduction and syntax][l04_1];<br/>- Part 2: [Semantics of expressions][l04_2] | **Semantics of IMP**<br/>- Part 1: [Structural Operational Semantics][l05_1] ([notes][n05_1]);<br/>- Part 2: [Natural Semantics][l05_2] ([notes][n05_2])                                                 | **Reasoning about semantics and Interpreting IMP programs**                      | **Reasoning on IMP and its semantics**<br/>- Part 1: [Structural operational semantics agree with natural semantics][l06_1] ([notes][n06_1]);<br/>- Part 2: [Natural semantics agree with structural operational semantics][l06_2] ([notes][n06_2]);<br/>- Part 3: [Why do we have both, then?][l06_3] ([notes][n06_3])
-| 9  | **The Abstract Machine**<br/>- Part 1: [Interpreters vs Compilers][l07_1] ([notes][n07_1]);<br/>- Part 2: [The Abstract Machine][l07_2] ([notes][n07_2]) | **Compiling IMP programs to the Abstract Machine**<br/>- Part 1: [Compiling IMP to AM][l08_1] ([notes][n08_1]);<br/>- Part 2: (Optional) Some Less Abstract Machines | **Compiling IMP programs to the Abstract Machine** | **Reasoning about compilation** |
-| 10 | (Unassessed) **Extending IMP: Procedures**                                                                                                               | (Unassessed) **Extending IMP: Procedures (II)**                                                                                                                      | -                                                  | -                               |
+| 9  | **The Abstract Machine**<br/>- Part 1: [Interpreters vs Compilers][l07_1] ([notes][n07_1]);<br/>- Part 2: [The Abstract Machine][l07_2] ([notes][n07_2]) | **Compiling IMP programs to the Abstract Machine**<br/>- Part 1: [Compiling IMP to AM][l08_1] ([notes][n08_1]);<br/>- Part 2: (Optional) Some Less Abstract Machines | **Compiling IMP programs to the Abstract Machine** | **Reasoning about compilation**<br/>- Part 1: [Proving Compilation Correct][l09] ([notes][n09]) |
+| 10 | (Unassessed) **Extending IMP: Procedures**                                                                                                               | (Unassessed) **Extending IMP: Procedures (II)**                                                                                                                      | -                                                  | -                                                                                               |
 {: .v-align-top }
 
 [l01_1]: https://web.microsoftstream.com/video/e0c39a90-ad79-4288-aa36-9a2f539f151e?channelId=029543e1-41d8-4091-b07b-af0c676c468c
@@ -61,8 +61,8 @@ This part will cover the semantics of programming languages in theory and in pra
 [n07_2]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Notes%20(Part%20II)/Lecture7-AbstractMachine.pdf
 [l08_1]: https://web.microsoftstream.com/video/0621bd96-abae-46f3-b2c5-76be2fa64305
 [n08_1]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Notes%20(Part%20II)/Lecture8-TranslatingIMP.pdf
-[l08_2]: 
-[n08_2]: 
+[l09]: https://web.microsoftstream.com/video/960d71c2-20c6-4a27-9ad5-51cfe85512c4
+[n09]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Notes%20(Part%20II)/Lecture9-CorrectCompilation.pdf
 
 You will know enough to _start_ the problem sheet for a given Week after
 listening to the first two lectures of the same Week. The problem sheet and
@@ -80,11 +80,13 @@ The problem sheets will appear here, along with Haskell templates, when ready.
 They will also be uploaded to the Files tab of the General channel in the
 [COMS20007 Team](https://teams.microsoft.com/l/team/19%3add828ce0548d42159af589fd2340ec82%40thread.tacv2/conversations?groupId=ae85fd4b-b6ac-4b6c-870d-7e4451649167&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b).
 
-| Week | Sheet                | Starter Code        | Sample Answers     | Sample Code         |
-| :--- | :----                | :-----------        | :-------------     | :----------         |
-| 4    | [Problem sheet][s01] | [Starter Code][c01] | [Solutions][ans01] | [Final Code][sol01] |
-| 5    | [Problem sheet][s02] | -                   | [Solutions][ans02] | -                   |
-| 8    | [Problem sheet][s03] | [Starter Code][c03] | [Solutions][ans03] | [Final Code][sol03] |
+| Week | Sheet                                       | Starter Code                    | Sample Answers     | Sample Code         |
+| :--- | :----                                       | :-----------                    | :-------------     | :----------         |
+| 4    | [Problem sheet][s01]                        | [Starter Code][c01]             | [Solutions][ans01] | [Final Code][sol01] |
+| 5    | [Problem sheet][s02]                        | -                               | [Solutions][ans02] | -                   |
+| 8    | [Problem sheet][s03]                        | [Starter Code][c03]             | [Solutions][ans03] | [Final Code][sol03] |
+| 9    | Continue on sheet 3, get started on sheet 4 |                                 |                    |                     |
+| 10   | Problem sheet                               | Starter Code + Abstract Machine | Solutions          | Final Code          |
 
 [s01]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20%28Part%20II%29/lab1-sheet.pdf
 [c01]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20%28Part%20II%29/lab1-code.zip
