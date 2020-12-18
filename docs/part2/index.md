@@ -119,6 +119,8 @@ They will also be uploaded to the Files tab of the General channel in the
 [s04]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20(Part%20II)/lab4-sheet.pdf
 [c04]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20(Part%20II)/lab4-code.zip
 [am]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20(Part%20II)/am.zip
+[ans04]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20(Part%20II)/lab4-solution.pdf
+[sol04]: https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Problems%20(Part%20II)/lab4-solution.zip
 
 
 For the programming tasks, we will assume a barebones Haskell that gives you
