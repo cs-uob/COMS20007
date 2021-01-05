@@ -68,11 +68,11 @@ The two parts will be slightly interleaved as a consequence of time constraints 
 
 ### Assessment
 
-This unit is assessed by a written exam.
+This unit is assessed by a written exam on <b>22 January at 09:45 GMT</b>.
 
 The exam consists of two questions of 50 marks each, and each question is the same format as a problem sheet.  You must answer both questions.  One question is on Part I and the other on Part II.  You have three hours to complete your solutions.  You may use the lecture materials, but you must not collaborate.  You will not be required to write any Haskell code in the exam.
 
-You will find the date and time of the exam listed in your exam timetable.  Shortly before the exam, a Blackboard assessment point will be created on the Blackboard page for this unit.  At the time of the exam you should navigate to this assessment point where you will be able to download a copy of the paper in PDF format.  You may start the exam immediately.  You will have three hours to write your solutions and a further period of additional time (which is yet to be standardised across the department) in which to upload your solutions back to the assessment point (e.g. after scanning or photographing them).  See [here](https://www.ole.bris.ac.uk/bbcswebdav/pid-490921-dt-announcement-rid-14254044_4/institution/TEL/TEL guides/Student-facing guides/Submitting handwritten materials/index.html) for the University's guidance on uploading handwritten materials.
+Shortly before the exam, a Blackboard assessment point will be created on the Blackboard page for this unit.  At the time of the exam you should navigate to this assessment point where you will be able to download a copy of the paper in PDF format.  You may start the exam immediately.  You will have three hours to write your solutions and a further period of additional time (which is yet to be standardised across the department) in which to upload your solutions back to the assessment point (e.g. after scanning or photographing them).  See [here](https://www.ole.bris.ac.uk/bbcswebdav/pid-490921-dt-announcement-rid-14254044_4/institution/TEL/TEL guides/Student-facing guides/Submitting handwritten materials/index.html) for the University's guidance on uploading handwritten materials.
 
 There is a practice paper available here so that you can familarise yourself with the format:
 * [Paper](https://uob.sharepoint.com/teams/grp-COMS20007/Shared%20Documents/General/Practice%20Paper/exam.pdf)
