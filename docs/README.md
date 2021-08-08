@@ -68,7 +68,7 @@ The two parts will be slightly interleaved as a consequence of time constraints 
 
 ### Assessment
 
-This unit is assessed by a written exam in the January assessment period and again in the August/September assessment period.  The date of the former is <b>22 January at 09:45 GMT</b>, the date of the latter will be announced with the exam timetabling on August 3rd.  Both exams follow the same format, described below.
+This unit is assessed by a written exam in the January assessment period and again in the August/September assessment period.  The date of the former is <b>22 January at 09:45 GMT</b>, the date of the latter is <b>23 August at 09:45 BST</b>.  Both exams follow the same format, described below.
 
 The exam consists of two questions of 50 marks each, and each question is the same format as a problem sheet.  You must answer both questions.  One question is on Part I and the other on Part II.  You have three hours to complete your solutions.  You may use the lecture materials, but you must not collaborate.  You will not be required to write any Haskell code in the exam.
 
